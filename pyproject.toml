@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "psevdo-inst"
+version = "0.0.0.1"
+description = "photos_api"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "README.md"
+packages = [{include = "psevdo_inst"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
